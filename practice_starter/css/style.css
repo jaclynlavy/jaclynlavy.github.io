@@ -27,6 +27,9 @@ nav ul {
 }
 nav li {
   margin-left: 15px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
 }
 header {
   display: flex;
@@ -59,7 +62,6 @@ section p {
   padding: 15px 30px;
   margin: 30px 0;
 }
-
 .btn-primary {
   color: white;
   border: 0px solid white;
@@ -69,7 +71,6 @@ section p {
   background-color: #003bde;
   padding: 8px 15px;
 }
-
 #left-col {
   background-image: url(https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   background-size: cover;
@@ -87,4 +88,14 @@ section p {
   height: 325px;
   padding: 100px 60px;
   width: 50%;
+}
+#footer a{
+  color: rgba(122, 131, 142, 0.6);
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+}
+#footer  {
+  padding: 40px 60px;
+  border-top: 1px solid rgba(122, 131, 142, 0.6);
 }
